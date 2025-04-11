@@ -37,7 +37,10 @@ author:
   name             : "李华"
   pronouns         : # example: "she/her"  
   # bio              : "学历职称：博士/副教授 \n 导师类型：硕/博士生导师"
-  bio: "博士/副教授 \n 硕/博士生导师"
+  # bio: "博士/副教授 \n 硕/博士生导师"
+  title: "博士/副教授"  # 职称
+  advisor_type: "硕/博士生导师"  # 导师类型
+  bio: "海南大学计算机科学与技术学院副教授，研究方向为人工智能与数据挖掘。"
   location         : "计算机科学与技术学院"
   employer         : "海南大学"
   uri              : # URL
