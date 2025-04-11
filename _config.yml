@@ -19,7 +19,7 @@
 # repository               : "academicpages/academicpages.github.io"
 
 locale: "zh-CN"
-site_theme: "minimal"
+site_theme: "default"
 title: "李华的学术主页"
 title_separator: "-"
 name: &name "李华"
