@@ -1,13 +1,13 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "个人简介"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-个人简介
+教育经历
 ======
 * 2010年获西北工业大学软件工程学士学位；
 * 2016年获华中科技大学软件工程硕士学位；
