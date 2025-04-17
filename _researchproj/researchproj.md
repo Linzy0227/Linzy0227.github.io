@@ -10,6 +10,8 @@ header:
   overlay_filter: 0.5
   overlay_image: /images/image-alignment-1200x4002.jpg    # 可添加题图
 ---
+
+
 1. ​**国家自然科学基金地区项目**​（编号：62461018）  
 *面向海洋保护的水下视频细粒度分割与识别技术研究*  
 2025/01 - 2028/12｜在研｜主持
