@@ -193,72 +193,6 @@ permalink: /publications/
   </div>
 </div>
 
-<!-- 2018 -->
-<div class="year">2018</div>
-
-<div class="paper-container">
-  <div class="paper-image">
-    <img src="/paperimgs/nams-superpixel.jpg" alt="NAMS Superpixel">
-  </div>
-  <div class="paper-details">
-    <h3>Color Disease Leaf Image Segmentation Using NAMS Superpixel Algorithm</h3>
-    <p>Hua Li, Chuanbo Chen*, Shengrong Zhao, Zehua Lyu</p>
-    <p><em>Technology and Health Care</em> <span class="academic-tag sci-q4">SCI Q4</span></p>
-    <a href="[PDF_URL_15]">Paper</a> 
-  </div>
-</div>
-
-<!-- 2017 -->
-<div class="year">2017</div>
-
-<div class="paper-container">
-  <div class="paper-image">
-    <img src="/paperimgs/brain-mri.jpg" alt="Brain MRI">
-  </div>
-  <div class="paper-details">
-    <h3>Brain MR Image Segmentation Using NAMS in Pseudo-Color</h3>
-    <p>Hua Li, Chuanbo Chen, Shaohong Fang*, Shengrong Zhao</p>
-    <p><em>Computer Assisted Surgery</em> <span class="academic-tag sci-q4">SCI Q4</span></p>
-    <a href="[PDF_URL_16]">Paper</a>
-  </div>
-</div>
-
-<div class="paper-container">
-  <div class="paper-image">
-    <img src="/paperimgs/anti-packing.jpg" alt="Anti-packing Model">
-  </div>
-  <div class="paper-details">
-    <h3>A Novel Algorithm for Color Image Representation Using Non-symmetry and Anti-packing Model with Squares</h3>
-    <p>Chuanbo Chen, Hua Li, Zehua Lyu*, Hu Liang, Mudar Sarem</p>
-    <p><em>International Journal of Signal Processing, Image Processing and Pattern Recognition</em> </p>
-    <a href="[PDF_URL_17]">Paper</a>
-  </div>
-</div>
-
-<div class="paper-container">
-  <div class="paper-image">
-    <img src="/paperimgs/chinese1.jpg" alt="中文论文1">
-  </div>
-  <div class="paper-details">
-    <h3>基于非对称逆布局子模块合并的图像表示算法</h3>
-    <p>吕泽华,李华,陈传波,梁虎</p>
-    <p><em>华中科技大学学报（自然科学版）</em> (EI)</p>
-    <a href="[PDF链接]">Paper</a> 
-  </div>
-</div>
-
-<div class="paper-container">
-  <div class="paper-image">
-    <img src="/paperimgs/chinese2.jpg" alt="中文论文2">
-  </div>
-  <div class="paper-details">
-    <h3>基于捕获流动中心试点的自适应K-means算法</h3>
-    <p>吕泽华,张豪,李华</p>
-    <p><em>统计与决策</em> (CSSCI)</p>
-    <a href="[PDF链接]">Paper</a> 
-  </div>
-</div>
-
 <style>
 /* 整体样式 */
 .publications {
@@ -325,20 +259,33 @@ em {
   font-weight: bold;
 }
 
-/* 链接按钮 */
-a {
+/* 论文专用链接 */
+.paper-container a {
   display: inline-block;
   margin-top: 15px;
   padding: 8px 20px;
   background: #3498db;
-  color: white!important;
+  color: white;
   text-decoration: none;
   border-radius: 5px;
   transition: 0.3s;
+  font-size: 14px;
+  border: 1px solid #2980b9;
+}
+
+.paper-container a:hover {
+  background: #2980b9;
+  transform: translateY(-1px);
+}
+
+/* 其他链接保持默认样式 */
+a {
+  color: #3498db;
+  text-decoration: underline;
 }
 
 a:hover {
-  background: #2980b9;
+  color: #2980b9;
 }
 
 /* 特殊标签 */
