@@ -4,7 +4,7 @@ collection: researchproj
 # type: "Undergraduate course"
 permalink: /researchproj/
 # venue: "University 1, Department"
-date: 2025-04-17
+# date: 2025-04-17
 # location: "City, Country"
 # header:
 #   overlay_filter: 0.5
