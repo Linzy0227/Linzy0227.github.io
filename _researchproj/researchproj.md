@@ -6,9 +6,9 @@ permalink: /researchproj/
 # venue: "University 1, Department"
 date: 2025-04-17
 # location: "City, Country"
-header:
-  overlay_filter: 0.5
-  overlay_image: /images/image-alignment-1200x4002.jpg    # 可添加题图
+# header:
+#   overlay_filter: 0.5
+#   overlay_image: /images/image-alignment-1200x4002.jpg    # 可添加题图
 ---
 
 
