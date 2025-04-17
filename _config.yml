@@ -225,7 +225,7 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
-
+# TODO
 # These settings control the types of collections used by the template
 collections:
   teaching:
@@ -238,6 +238,9 @@ collections:
     output: true
     permalink: /:collection/:path/
   talks:
+    output: true
+    permalink: /:collection/:path/
+  researchproj:
     output: true
     permalink: /:collection/:path/
 
@@ -297,7 +300,15 @@ defaults:
       layout: talk
       author_profile: true
       share: true
-
+  # _researchproj
+  - scope:
+      path: ""
+      type: researchproj
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
 
 # Sass/SCSS
 sass:

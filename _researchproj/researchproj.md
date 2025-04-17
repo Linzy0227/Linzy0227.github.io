@@ -2,7 +2,7 @@
 title: "主持科研项目"
 collection: researchproj
 type: "Undergraduate course"
-permalink: /researchproj/researchproj
+permalink: /researchproj/
 # venue: "University 1, Department"
 # date: 2014-01-01
 # location: "City, Country"
