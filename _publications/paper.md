@@ -11,7 +11,7 @@ permalink: /publications/
 
 <div class="paper-container">
   <div class="paper-image">
-    <img src="/images/papers/optidiff.jpg" alt="OptiDiff">
+    <img src="/paperimgs/optidiff.jpg" alt="OptiDiff">
   </div>
   <div class="paper-details">
     <h3>OptiDiff: Unsupervised Deep-Sea Image Enhancement via Optical Priors Guided Stable Diffusion</h3>
@@ -23,7 +23,7 @@ permalink: /publications/
 
 <div class="paper-container">
   <div class="paper-image">
-    <img src="/images/papers/tmanet.jpg" alt="TMANet">
+    <img src="/paperimgs/tmanet.jpg" alt="TMANet">
   </div>
   <div class="paper-details">
     <h3>TMANet: Triple Multi-Scale Attention based Network with Boundary Association Loss for Superpixel Segmentation</h3>
@@ -38,7 +38,7 @@ permalink: /publications/
 
 <div class="paper-container">
   <div class="paper-image">
-    <img src="/images/papers/diving.jpg" alt="Diving into Underwater">
+    <img src="/paperimgs/diving.jpg" alt="Diving into Underwater">
   </div>
   <div class="paper-details">
     <h3>Diving into Underwater: Segment Anything Model Guided Underwater Salient Instance Segmentation and A Large-scale Dataset</h3>
@@ -50,7 +50,7 @@ permalink: /publications/
 
 <div class="paper-container">
   <div class="paper-image">
-    <img src="/images/papers/diving.jpg" alt="USNET">
+    <img src="/paperimgs/diving.jpg" alt="USNET">
   </div>
   <div class="paper-details">
     <h3>USNET: Underwater Image Superpixel Segmentation via Multi-scale Water-net</h3>
@@ -62,7 +62,7 @@ permalink: /publications/
 
 <div class="paper-container">
   <div class="paper-image">
-    <img src="/images/papers/diving.jpg" alt="ESNet">
+    <img src="/paperimgs/diving.jpg" alt="ESNet">
   </div>
   <div class="paper-details">
     <h3>ESNet: Evolution and Succession Network for High-Resolution Salient Object Detection</h3>
@@ -74,7 +74,7 @@ permalink: /publications/
 
 <div class="paper-container">
   <div class="paper-image">
-    <img src="/images/papers/stereo-superpixel.jpg" alt="Stereo Superpixel">
+    <img src="/paperimgs/stereo-superpixel.jpg" alt="Stereo Superpixel">
   </div>
   <div class="paper-details">
     <h3>Stereo Superpixel Segmentation Via Decoupled Dynamic Spatial-Embedding Fusion Network</h3>
@@ -89,7 +89,7 @@ permalink: /publications/
 
 <div class="paper-container">
   <div class="paper-image">
-    <img src="/images/papers/fsnet.jpg" alt="FSNet">
+    <img src="/paperimgs/fsnet.jpg" alt="FSNet">
   </div>
   <div class="paper-details">
     <h3>FSNet: Frequency Domain Guided Superpixel Segmentation Network for Complex Scenes</h3>
@@ -101,7 +101,7 @@ permalink: /publications/
 
 <div class="paper-container">
   <div class="paper-image">
-    <img src="/images/papers/watermask.jpg" alt="WaterMask">
+    <img src="/paperimgs/watermask.jpg" alt="WaterMask">
   </div>
   <div class="paper-details">
     <h3>WaterMask: Instance Segmentation for Underwater Imagery</h3>
@@ -114,7 +114,7 @@ permalink: /publications/
 
 <div class="paper-container">
   <div class="paper-image">
-    <img src="/images/papers/underwater-restoration.jpg" alt="Underwater Restoration">
+    <img src="/paperimgs/underwater-restoration.jpg" alt="Underwater Restoration">
   </div>
   <div class="paper-details">
     <h3>Atmospheric Scattering Model Induced Statistical Characteristics Estimation for Underwater Image Restoration</h3>
@@ -129,7 +129,7 @@ permalink: /publications/
 
 <div class="paper-container">
   <div class="paper-image">
-    <img src="/images/papers/dual-attention.jpg" alt="Dual-Attention">
+    <img src="/paperimgs/dual-attention.jpg" alt="Dual-Attention">
   </div>
   <div class="paper-details">
     <h3>Stereo Superpixel Segmentation via Dual-Attention Fusion Networks</h3>
@@ -141,7 +141,7 @@ permalink: /publications/
 
 <div class="paper-container">
   <div class="paper-image">
-    <img src="/images/papers/stereo-superpixel.jpg" alt="Stereo Framework">
+    <img src="/paperimgs/stereo-superpixel.jpg" alt="Stereo Framework">
   </div>
   <div class="paper-details">
     <h3>Stereo Superpixel: An Iterative Framework based on Parallax Consistency and Collaborative Optimization</h3>
@@ -153,7 +153,7 @@ permalink: /publications/
 
 <div class="paper-container">
   <div class="paper-image">
-    <img src="/images/papers/subspace-clustering.jpg" alt="Subspace Clustering">
+    <img src="/paperimgs/subspace-clustering.jpg" alt="Subspace Clustering">
   </div>
   <div class="paper-details">
     <h3>Superpixel Segmentation Based on Spatially Constrained Subspace Clustering</h3>
@@ -168,7 +168,7 @@ permalink: /publications/
 
 <div class="paper-container">
   <div class="paper-image">
-    <img src="/images/papers/fusion-network.jpg" alt="Fusion Network">
+    <img src="/paperimgs/fusion-network.jpg" alt="Fusion Network">
   </div>
   <div class="paper-details">
     <h3>A parallel down-up fusion network for salient object detection in optical remote sensing images</h3>
@@ -183,7 +183,7 @@ permalink: /publications/
 
 <div class="paper-container">
   <div class="paper-image">
-    <img src="/images/papers/asymmetric-partition.jpg" alt="Asymmetric Partition">
+    <img src="/paperimgs/asymmetric-partition.jpg" alt="Asymmetric Partition">
   </div>
   <div class="paper-details">
     <h3>Superpixel Segmentation Based on Square-Wise Asymmetric Partition and Structural Approximation</h3>
@@ -199,7 +199,7 @@ permalink: /publications/
 
 <div class="paper-container">
   <div class="paper-image">
-    <img src="/images/papers/nams-superpixel.jpg" alt="NAMS Superpixel">
+    <img src="/paperimgs/nams-superpixel.jpg" alt="NAMS Superpixel">
   </div>
   <div class="paper-details">
     <h3>Color Disease Leaf Image Segmentation Using NAMS Superpixel Algorithm</h3>
@@ -215,7 +215,7 @@ permalink: /publications/
 
 <div class="paper-container">
   <div class="paper-image">
-    <img src="/images/papers/brain-mri.jpg" alt="Brain MRI">
+    <img src="/paperimgs/brain-mri.jpg" alt="Brain MRI">
   </div>
   <div class="paper-details">
     <h3>Brain MR Image Segmentation Using NAMS in Pseudo-Color</h3>
@@ -228,7 +228,7 @@ permalink: /publications/
 
 <div class="paper-container">
   <div class="paper-image">
-    <img src="/images/papers/anti-packing.jpg" alt="Anti-packing Model">
+    <img src="/paperimgs/anti-packing.jpg" alt="Anti-packing Model">
   </div>
   <div class="paper-details">
     <h3>A Novel Algorithm for Color Image Representation Using Non-symmetry and Anti-packing Model with Squares</h3>
@@ -243,7 +243,7 @@ permalink: /publications/
 
 <div class="paper-container">
   <div class="paper-image">
-    <img src="/images/papers/chinese1.jpg" alt="中文论文1">
+    <img src="/paperimgs/chinese1.jpg" alt="中文论文1">
   </div>
   <div class="paper-details">
     <h3>基于非对称逆布局子模块合并的图像表示算法</h3>
@@ -255,7 +255,7 @@ permalink: /publications/
 
 <div class="paper-container">
   <div class="paper-image">
-    <img src="/images/papers/chinese2.jpg" alt="中文论文2">
+    <img src="/paperimgs/chinese2.jpg" alt="中文论文2">
   </div>
   <div class="paper-details">
     <h3>基于捕获流动中心试点的自适应K-means算法</h3>
