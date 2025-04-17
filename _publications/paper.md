@@ -16,8 +16,8 @@ permalink: /publications/
   <div class="paper-details">
     <h3>OptiDiff: Unsupervised Deep-Sea Image Enhancement via Optical Priors Guided Stable Diffusion</h3>
     <p>Wenhui Wu, Yuemiao Wang, Hua Li*, Yuanhao Gong</p>
-    <p><em>IEEE ICME 2025</em> (CCF B)</p>
-    <a href="[PDF链接]">Paper</a> | <a href="[代码链接]">Code</a>
+    <p><em>IEEE ICME 2025</em> <span class="academic-tag ccf-b">CCF B</span></p>
+    <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10888234">Paper</a> | <a href="[代码链接]">Code</a>
   </div>
 </div>
 
@@ -28,7 +28,7 @@ permalink: /publications/
   <div class="paper-details">
     <h3>TMANet: Triple Multi-Scale Attention based Network with Boundary Association Loss for Superpixel Segmentation</h3>
     <p>Ziyi Zhang, Shijie Lian, Hua Li*</p>
-    <p><em>IEEE ICASSP 2025</em> (CCF B)</p>
+    <p><em>IEEE ICASSP 2025</em> <span class="academic-tag ccf-b">CCF B</span></p>
     <a href="[PDF链接]">Paper</a> | <a href="[代码链接]">Code</a>
   </div>
 </div>
@@ -43,7 +43,7 @@ permalink: /publications/
   <div class="paper-details">
     <h3>Diving into Underwater: Segment Anything Model Guided Underwater Salient Instance Segmentation and A Large-scale Dataset</h3>
     <p>Shijie Lian, Ziyi Zhang, Hua Li*, Wenjie Li, Laurence Tianruo Yang, Sam Kwong, Runmin Cong</p>
-    <p><em>ICML 2024</em> (CCF A)</p>
+    <p><em>ICML 2024</em> <span class="academic-tag ccf-a">CCF A</span></p>
     <a href="[PDF链接]">Paper</a> | <a href="[代码链接]">Code</a>
   </div>
 </div>
@@ -55,7 +55,7 @@ permalink: /publications/
   <div class="paper-details">
     <h3>USNET: Underwater Image Superpixel Segmentation via Multi-scale Water-net</h3>
     <p>Chuhong Wang, Wenli Duan, Chengche Luan, Junyan Liang, Lengyu Shen, and Hua Li*</p>
-    <p><em>Frontiers in Marine Science</em> (SCI Q1, Top)</p>
+    <p><em>Frontiers in Marine Science</em> <span class="academic-tag sci-q1">SCI Q1, Top</span></p>
     <a href="[PDF链接]">Paper</a> | <a href="[代码链接]">Code</a>
   </div>
 </div>
@@ -67,7 +67,7 @@ permalink: /publications/
   <div class="paper-details">
     <h3>ESNet: Evolution and Succession Network for High-Resolution Salient Object Detection</h3>
     <p>Hongyu Liu, Runmin Cong*, Hua Li, Qianqian Xu, Qingming Huang, Wei Zhang</p>
-    <p><em>ICML 2024</em> (CCF A)</p>
+    <p><em>ICML 2024</em> <span class="academic-tag ccf-a">CCF A</span></p>
     <a href="[PDF链接]">Paper</a> | <a href="[代码链接]">Code</a>
   </div>
 </div>
@@ -79,7 +79,7 @@ permalink: /publications/
   <div class="paper-details">
     <h3>Stereo Superpixel Segmentation Via Decoupled Dynamic Spatial-Embedding Fusion Network</h3>
     <p>Hua Li, Junyan Liang, Ruiqi Wu, Runmin Cong*, Wenhui Wu; Sam Tak Wu Kwong</p>
-    <p><em>IEEE Transactions on Multimedia</em> (IF=7.3, SCI Q1, Top)</p>
+    <p><em>IEEE Transactions on Multimedia</em> <span class="academic-tag sci-q1">SCI Q1, Top</span></p>
     <a href="[PDF_URL_8]">Paper</a> | <a href="[CODE_URL_8]">Code</a>
   </div>
 </div>
@@ -94,7 +94,7 @@ permalink: /publications/
   <div class="paper-details">
     <h3>FSNet: Frequency Domain Guided Superpixel Segmentation Network for Complex Scenes</h3>
     <p>Hua Li, Junyan Liang, Wenjie Li, Wenhui Wu*</p>
-    <p><em>ACM Multimedia 2023</em> (CCF A)</p>
+    <p><em>ACM Multimedia 2023</em> <span class="academic-tag ccf-a">CCF A</span></p>
     <a href="[PDF_URL_6]">Paper</a> | <a href="[CODE_URL_6]">Code</a>
   </div>
 </div>
@@ -106,7 +106,7 @@ permalink: /publications/
   <div class="paper-details">
     <h3>WaterMask: Instance Segmentation for Underwater Imagery</h3>
     <p>Shijie Lian, Hua Li*, Runmin Cong*, Suqi Li, Wei Zhang, Sam Kwong</p>
-    <p><em>ICCV 2023</em> (CCF A)</p>
+    <p><em>ICCV 2023</em> <span class="academic-tag ccf-a">CCF A</span></p>
     <a href="[PDF_URL_7]">Paper</a> | <a href="[CODE_URL_7]">Code</a>
   </div>
 </div>
@@ -119,7 +119,7 @@ permalink: /publications/
   <div class="paper-details">
     <h3>Atmospheric Scattering Model Induced Statistical Characteristics Estimation for Underwater Image Restoration</h3>
     <p>Shuaibo Gao, Wenhui Wu, Hua Li, Linwei Zhu, Xu Wang</p>
-    <p><em>IEEE Signal Processing Letters</em> (IF=3.9, SCI Q2)</p>
+    <p><em>IEEE Signal Processing Letters</em> <span class="academic-tag sci-q2">SCI Q2</span></p>
     <a href="[PDF_URL_9]">Paper</a> | <a href="[CODE_URL_9]">Code</a>
   </div>
 </div>
@@ -134,7 +134,7 @@ permalink: /publications/
   <div class="paper-details">
     <h3>Stereo Superpixel Segmentation via Dual-Attention Fusion Networks</h3>
     <p>Ruiqi Wu, Yajuan Du, Hua Li*, Yucong Dai</p>
-    <p><em>IEEE ICME 2021</em> (Oral, CCF B)</p>
+    <p><em>IEEE ICME 2021</em> <span class="academic-tag ccf-b">Oral, CCF B</span></p>
     <a href="[PDF_URL_10]">Paper</a> | <a href="[CODE_URL_10]">Code</a>
   </div>
 </div>
@@ -146,7 +146,7 @@ permalink: /publications/
   <div class="paper-details">
     <h3>Stereo Superpixel: An Iterative Framework based on Parallax Consistency and Collaborative Optimization</h3>
     <p>Hua Li, Runmin Cong*, Sam Kwong*, Chuanbo Chen, Qianqian Xu, Chongyi Li</p>
-    <p><em>Information Sciences</em> (IF=5.910, SCI Q1, Top)</p>
+    <p><em>Information Sciences</em> <span class="academic-tag sci-q1">SCI Q1, Top</span></p>
     <a href="[PDF_URL_11]">Paper</a> | <a href="[CODE_URL_11]">Code</a>
   </div>
 </div>
@@ -158,7 +158,7 @@ permalink: /publications/
   <div class="paper-details">
     <h3>Superpixel Segmentation Based on Spatially Constrained Subspace Clustering</h3>
     <p>Hua Li, Yuheng Jia, Runmin Cong, Wenhui Wu, Sam Kwong*, Chuanbo Chen</p>
-    <p><em>IEEE Transactions on Industrial Informatics</em> (IF=10.215, SCI Q1, Top)</p>
+    <p><em>IEEE Transactions on Industrial Informatics</em> <span class="academic-tag sci-q1">SCI Q1, Top</span></p>
     <a href="[PDF_URL_12]">Paper</a> | <a href="[CODE_URL_12]">Code</a>
   </div>
 </div>
@@ -173,7 +173,7 @@ permalink: /publications/
   <div class="paper-details">
     <h3>A parallel down-up fusion network for salient object detection in optical remote sensing images</h3>
     <p>Chongyi Li, Runmin Cong*, Chunle Guo, Hua Li*, Chunjie Zhang, Feng Zheng, Yao Zhao</p>
-    <p><em>Neurocomputing</em> (IF=4.438, SCI Q2, Top)</p>
+    <p><em>Neurocomputing</em> <span class="academic-tag sci-q2">SCI Q2, Top</span></p>
     <a href="[PDF_URL_13]">Paper</a> | <a href="[CODE_URL_13]">Code</a>
   </div>
 </div>
@@ -188,8 +188,7 @@ permalink: /publications/
   <div class="paper-details">
     <h3>Superpixel Segmentation Based on Square-Wise Asymmetric Partition and Structural Approximation</h3>
     <p>Hua Li, Sam Kwong*, Chuanbo Chen, Yuheng Jia*, Runmin Cong</p>
-    <p><em>IEEE Transactions on Multimedia</em> 2019, 21(10):2625-2637
-      <span class="journal-metrics">(IF=6.051, SCI Q1, Top)</span></p>
+    <p><em>IEEE Transactions on Multimedia</em> <span class="academic-tag sci-q1">SCI Q1, Top</span></p>
     <a href="[PDF_URL_14]">Paper</a> | <a href="[CODE_URL_14]">Code</a>
   </div>
 </div>
@@ -204,8 +203,7 @@ permalink: /publications/
   <div class="paper-details">
     <h3>Color Disease Leaf Image Segmentation Using NAMS Superpixel Algorithm</h3>
     <p>Hua Li, Chuanbo Chen*, Shengrong Zhao, Zehua Lyu</p>
-    <p><em>Technology and Health Care</em> 2018, 26(1):151-156
-      <span class="journal-metrics">(IF=0.93, SCI Q4)</span></p>
+    <p><em>Technology and Health Care</em> <span class="academic-tag sci-q4">SCI Q4</span></p>
     <a href="[PDF_URL_15]">Paper</a> 
   </div>
 </div>
@@ -220,8 +218,7 @@ permalink: /publications/
   <div class="paper-details">
     <h3>Brain MR Image Segmentation Using NAMS in Pseudo-Color</h3>
     <p>Hua Li, Chuanbo Chen, Shaohong Fang*, Shengrong Zhao</p>
-    <p><em>Computer Assisted Surgery</em> 2017, 22(sup1):170-175
-      <span class="journal-metrics">(IF=0.581, SCI Q4)</span></p>
+    <p><em>Computer Assisted Surgery</em> <span class="academic-tag sci-q4">SCI Q4</span></p>
     <a href="[PDF_URL_16]">Paper</a>
   </div>
 </div>
@@ -233,13 +230,10 @@ permalink: /publications/
   <div class="paper-details">
     <h3>A Novel Algorithm for Color Image Representation Using Non-symmetry and Anti-packing Model with Squares</h3>
     <p>Chuanbo Chen, Hua Li, Zehua Lyu*, Hu Liang, Mudar Sarem</p>
-    <p><em>International Journal of Signal Processing, Image Processing and Pattern Recognition</em> 2017, 10(6):1-12</p>
+    <p><em>International Journal of Signal Processing, Image Processing and Pattern Recognition</em> </p>
     <a href="[PDF_URL_17]">Paper</a>
   </div>
 </div>
-
-<!-- 2017 -->
-<div class="year">2017</div>
 
 <div class="paper-container">
   <div class="paper-image">
@@ -265,6 +259,102 @@ permalink: /publications/
   </div>
 </div>
 
+<style>
+/* 整体样式 */
+.publications {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* 年份标题 */
+.year {
+  color: #2c3e50;
+  font-size: 28px;
+  margin: 40px 0 20px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #3498db;
+}
+
+/* 论文条目 */
+.paper-container {
+  display: flex;
+  margin-bottom: 30px;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.paper-container:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* 图片样式 */
+.paper-image {
+  flex: 0 0 250px;
+  margin-right: 25px;
+}
+
+.paper-image img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+/* 文字详情 */
+.paper-details h3 {
+  color: #2c3e50;
+  margin: 0 0 15px;
+  font-size: 20px;
+}
+
+.paper-details p {
+  margin: 8px 0;
+  color: #666;
+}
+
+/* 会议/期刊标签 */
+em {
+  color: #3498db;
+  font-style: normal;
+  font-weight: bold;
+}
+
+/* 链接按钮 */
+a {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 8px 20px;
+  background: #3498db;
+  color: white!important;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+a:hover {
+  background: #2980b9;
+}
+
+/* 特殊标签 */
+.academic-tag {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 3px;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.ccf-a { background: #e74c3c; }
+.ccf-b { background: #3498db; }
+.sci-q1 { background: #27ae60; }
+.sci-q2 { background: #f1c40f; }
+</style>
+
 </div>
 
-<!-- 保持原有CSS样式 -->
