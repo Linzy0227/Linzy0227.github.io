@@ -20,7 +20,7 @@
 
 locale: "zh-CN"
 site_theme: "default"
-title: "李华的学术主页"
+title: "学术主页"
 title_separator: "-"
 name: &name "李华"
 description: &description "海南大学副教授 | 人工智能与机器学习研究方向"
@@ -34,7 +34,7 @@ repository: "Linzy0227/Linzy0227.github.io" # TODO
 author:
   # Biographic information
   avatar           : "LiHua.png"
-  name             : "李华"
+  name             : "      李华"
   pronouns         : # example: "she/her"  
   # bio              : "学历职称：博士/副教授 \n 导师类型：硕/博士生导师"
   # bio: "博士/副教授 \n 硕/博士生导师"
