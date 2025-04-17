@@ -17,19 +17,19 @@ permalink: /publications/
     <h3>OptiDiff: Unsupervised Deep-Sea Image Enhancement via Optical Priors Guided Stable Diffusion</h3>
     <p>Wenhui Wu, Yuemiao Wang, Hua Li*, Yuanhao Gong</p>
     <p><em>IEEE ICME 2025</em> <span class="academic-tag ccf-b">CCF B</span></p>
-    <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10888234">Paper</a> | <a href="[代码链接]">Code</a>
+    <a href="[PDF链接]">Paper</a> | <a href="[代码链接]">Code</a>
   </div>
 </div>
 
 <div class="paper-container">
   <div class="paper-image">
-    <img src="/paperimgs/tmanet.jpg" alt="TMANet">
+    <img src="/paperimgs/tmanet.png" alt="TMANet">
   </div>
   <div class="paper-details">
     <h3>TMANet: Triple Multi-Scale Attention based Network with Boundary Association Loss for Superpixel Segmentation</h3>
     <p>Ziyi Zhang, Shijie Lian, Hua Li*</p>
     <p><em>IEEE ICASSP 2025</em> <span class="academic-tag ccf-b">CCF B</span></p>
-    <a href="[PDF链接]">Paper</a> | <a href="[代码链接]">Code</a>
+    <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10888234">Paper</a> | <a href="[代码链接]">Code</a>
   </div>
 </div>
 
@@ -297,10 +297,40 @@ a:hover {
   margin-left: 10px;
 }
 
-.ccf-a { background: #e74c3c; }
-.ccf-b { background: #3498db; }
-.sci-q1 { background: #27ae60; }
-.sci-q2 { background: #f1c40f; }
+/* CCF 等级配色 */
+.ccf-a { 
+  background: #9b59b6;  /* 深蓝灰 */
+  color: #fff;
+}
+.ccf-b { 
+  background: #e67e22;  /* 中灰色 */
+  color: #fff;
+}
+
+/* SCI 分区配色 */
+.sci-q1 {
+  background: #27ae60;  /* 森林绿（保留原Q1颜色）*/
+  color: #fff;
+}
+.sci-q2 {
+  background:rgb(163, 159, 108);  /* 柔和蓝 */
+  color: #fff;
+}
+.sci-q3 {
+  background: #9b59b6;  /* 紫罗兰 */
+  color: #fff;
+}
+.sci-q4 {
+  background: #e67e22;  /* 南瓜橙 */
+  color: #fff;
+}
+
+/* 影响因子标签 */
+.impact-factor {
+  background: #ecf0f1;  /* 浅灰 */
+  color: #2c3e50;
+  border: 1px solid #bdc3c7;
+}
 </style>
 
 </div>
