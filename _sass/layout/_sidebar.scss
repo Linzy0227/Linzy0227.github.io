@@ -265,8 +265,8 @@
 .author__avatar {
   display: table-cell;
   vertical-align: top;
-  width: 200px;  // 增大头像区域
-  height: 200px; // 保持正方形
+  width: 170px;  // 增大头像区域
+  height: 175px; // 保持正方形
   margin: 0 auto; // 居中
 
   @include breakpoint($large) {
@@ -308,9 +308,9 @@
 .author__name {
   margin: 0;
   font-family: 'Microsoft YaHei', sans-serif; // 更优雅的中文字体
-  font-size: 2rem; // 增大字号
+  font-size: 4rem; // 增大字号
   font-weight: 600;
-  color: #2c3e50; // 深蓝色
+  color: #000000; // 深蓝色
   letter-spacing: 1px;
   position: relative;
   
