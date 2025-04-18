@@ -37,7 +37,7 @@ h2.section-title {
   content: '';
   position: absolute;
   left: 0;
-  top: 10px;
+  top: 5px;
   width: 2px;
   height: calc(100% - 20px);
   background: #3498db;
