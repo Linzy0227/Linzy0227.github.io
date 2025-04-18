@@ -265,115 +265,80 @@
 .author__avatar {
   display: table-cell;
   vertical-align: top;
-  width: 170px;  // 增大头像区域
-  height: 175px; // 保持正方形
-  margin: 0 auto; // 居中
+  width: 120px;  // 调小移动端尺寸
+  height: 120px; // 保持正方形比例
 
   @include breakpoint($large) {
     display: block;
-    width: 250px; // 桌面端更大尺寸
-    height: 250px;
+    width: 150px;  // 桌面端适中尺寸
+    height: 150px;
   }
 
   img {
     max-width: 100%;
     border-radius: 50%;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.2); // 添加立体阴影
-    transition: transform 0.3s ease; // 悬停动画
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
 
     @include breakpoint($large) {
-      padding: 8px;
-      border: 2px solid #f0f0f0; // 更柔和的边框颜色
+      padding: 6px;  // 减小内边距
+      border: 2px solid #f0f0f0;
     }
 
     &:hover {
-      transform: scale(1.05); // 悬停放大效果
+      transform: scale(1.03);  // 调小悬停放大比例
     }
   }
 }
 
 .author__content {
   display: table-cell;
-  vertical-align: middle; // 垂直居中
-  padding-left: 30px; // 增大间距
-  line-height: 1.6; // 更适合中文的行高
+  vertical-align: middle;
+  padding-left: 25px;  // 微调间距
+  line-height: 1.5;
 
   @include breakpoint($large) {
-    display: block;
-    text-align: center; // 桌面端居中
-    padding-top: 20px;
+    padding-top: 15px;
   }
 }
 
 .author__name {
   margin: 0;
-  font-family: 'Microsoft YaHei', sans-serif; // 更优雅的中文字体
-  font-size: 4rem; // 增大字号
+  font-family: 'Microsoft YaHei', sans-serif;
+  font-size: 1.8rem;  // 调整基准字号
   font-weight: 600;
-  color: #000000; // 深蓝色
-  letter-spacing: 1px;
-  position: relative;
+  color: #000000;
+  letter-spacing: 0.5px;
   
-  &::after {  // 添加装饰下划线
-    content: '';
-    display: block;
-    width: 60px;
-    height: 3px;
-    background: #3498db;
-    margin: 15px auto;
+  &::after {
+    width: 50px;  // 减小下划线长度
+    margin: 12px auto;
   }
 
   @include breakpoint($large) {
-    font-size: 2.5rem;
-    margin-top: 20px;
+    font-size: 2rem;  // 桌面端适当放大
   }
 }
 
-// 新增职称样式
+// 统一职称样式
 .author__title {
-  font-size: 1.3rem;
-  color: #3d0b05;
-  margin: 10px 0;
+  font-size: 1.2rem;
+  color: #000000;  // 改为纯黑
+  margin: 8px 0;
   font-weight: 500;
+  font-family: inherit;  // 继承主字体
 }
 
-// 新增导师类型样式 
+// 调整导师类型样式
 .author__advisor-type {
   font-size: 1.1rem;
-  color: #0b4580;
-  font-style: italic;
-  margin-bottom: 15px;
+  color: #000000;  // 改为纯黑
+  margin-bottom: 12px;
+  font-style: normal;  // 去掉斜体
+  font-family: inherit;  // 继承主字体
 }
 
-// 联系方式样式优化
-.author__urls-wrapper {
-  a[href^="mailto:"] {
-    color: #d35400;
-    font-weight: 500;
-    font-size: 1.1rem;
-    &::before {
-      content: "📧 ";
-    }
-  }
-  
-  .googlescholar-link {
-    color: #4285f4;
-    &::before {
-      content: "📚 ";
-    }
-  }
-}
-
-// 移动端优化
-@media screen and (max-width: 1023px) {
-  .author__avatar {
-    display: block;
-    margin: 0 auto 20px;
-  }
-  
-  .author__content {
-    display: block;
-    text-align: center;
-    padding-left: 0;
-  }
+// 隐藏Follow按钮
+.author__urls-wrapper .btn--inverse {
+  display: none;
 }
