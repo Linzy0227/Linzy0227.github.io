@@ -159,3 +159,43 @@
     </ul>
   </div>
 </div>
+
+<div class="author__bio">
+  <div class="author__card">
+    <!-- 头像 -->
+    {% if author.avatar %}
+      <img src="{{ author.avatar | relative_url }}" class="author__avatar" alt="{{ author.name }}">
+    {% endif %}
+    
+    <!-- 姓名 -->
+    <h1 class="author__name">{{ author.name }}</h1>
+    
+    <!-- 职称 -->
+    <div class="author__title">
+      {{ author.title }} | {{ author.advisor_type }}
+    </div>
+    
+    <!-- 单位 -->
+    <div class="author__affiliation">
+      <i class="fas fa-university"></i>
+      {{ author.location }}，{{ author.employer }}
+    </div>
+    
+    <!-- 联系信息 -->
+    <div class="author__contacts">
+      <div>
+        <i class="fas fa-envelope"></i>
+        <a href="mailto:{{ author.email }}">{{ author.email }}</a>
+      </div>
+    </div>
+    
+    <!-- 学术链接 -->
+    <div class="scholarly-links">
+      {% if author.googlescholar %}
+        <a href="{{ author.googlescholar }}">
+          <i class="ai ai-google-scholar"></i> Google Scholar
+        </a>
+      {% endif %}
+    </div>
+  </div>
+</div>
