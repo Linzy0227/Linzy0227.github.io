@@ -1,7 +1,7 @@
 /* ==========================================================================
    SIDEBAR
    ========================================================================== */
-
+ 
 /*
    Default
    ========================================================================== */
@@ -80,185 +80,300 @@
    Author profile and links
    ========================================================================== */
 
+// .author__avatar {
+//   display: table-cell;
+//   vertical-align: top;
+//   width: 36px;
+//   // set width only, for non-square avatars
+//   // height: 36px;
+
+//   @include breakpoint($large) {
+//     display: block;
+//     width: auto;
+//     height: auto;
+//   }
+
+//   img {
+//     max-width: 175px;
+//     border-radius: 50%;
+
+//     @include breakpoint($large) {
+//       padding: 5px;
+//       border: 1px solid var(--global-border-color);
+//     }
+//   }
+// }
+
+// .author__content {
+//   display: table-cell;
+//   vertical-align: top;
+//   padding-left: 15px;
+//   padding-right: 25px;
+//   line-height: 1;
+
+//   @include breakpoint($large) {
+//     display: block;
+//     width: 100%;
+//     padding-left: 0;
+//     padding-right: 0;
+//   }
+// }
+
+// .author__name {
+//   margin: 0;
+
+//   @include breakpoint($large) {
+//     margin-top: 10px;
+//     margin-bottom: 10px;
+//   }
+// }
+// .sidebar .author__name {
+//   font-family: $sans-serif;
+//   font-size: $type-size-5;
+// }
+
+// .sidebar .author__desktop {
+//   display: none;
+//   @media screen and (min-width: 1024px) {
+//     display: block;
+//   }
+// }
+
+// .author__pronouns {
+//   margin: 0;
+
+//   @include breakpoint($large) {
+//     margin-top: 10px;
+//     margin-bottom: 10px;
+//   }
+// }
+
+// .author__bio {
+//   margin: 0;
+
+//   @include breakpoint($large) {
+//     margin-top: 10px;
+//     margin-bottom: 20px;
+//   }
+// }
+
+// .author__urls-wrapper {
+//   position: relative;
+//   display: table-cell;
+//   vertical-align: middle;
+//   font-family: $sans-serif;
+//   z-index: 10;
+//   position: relative;
+//   cursor: pointer;
+
+//   li:last-child {
+//     a {
+//       margin-bottom: 0;
+//     }
+//   }
+
+//   @include breakpoint($large) {
+//     display: block;
+//   }
+
+//   button {
+//     margin-bottom: 0;
+
+//     @include breakpoint($large) {
+//       display: none;
+//     }
+//   }
+// }
+
+// .author__urls {
+//   display: none;
+//   position: absolute;
+//   right: 0;
+//   margin-top: 15px;
+//   padding: 10px;
+//   list-style-type: none;
+//   border: 1px solid var(--global-border-color);
+//   border-radius: $border-radius;
+//   background: var(--global-bg-color);
+//   z-index: -1;
+//   box-shadow: 0 0 10px rgba(#000, 0.25);
+//   cursor: default;
+
+//   @include breakpoint($large) {
+//     display: block;
+//     position: relative;
+//     margin: 0;
+//     padding: 0;
+//     border: 0;
+//     background: transparent;
+//     box-shadow: none;
+//   }
+
+//   &:before {
+//     display: block;
+//     content: "";
+//     position: absolute;
+//     top: -11px;
+//     left: calc(50% - 10px);
+//     width: 0;
+//     border-style: solid;
+//     border-width: 0 10px 10px;
+//     border-color: var(--global-border-color) transparent;
+//     z-index: 0;
+
+//     @include breakpoint($large) {
+//       display: none;
+//     }
+//   }
+
+//   &:after {
+//     display: block;
+//     content: "";
+//     position: absolute;
+//     top: -10px;
+//     left: calc(50% - 10px);
+//     width: 0;
+//     border-style: solid;
+//     border-width: 0 10px 10px;
+//     border-color: #fff transparent;
+//     z-index: 1;
+
+//     @include breakpoint($large) {
+//       display: none;
+//     }
+//   }
+
+//   li {
+//     white-space: nowrap;
+//   }
+
+//   a {
+//     display: block;
+//     margin-bottom: 5px;
+//     padding-right: 5px;
+//     padding-top: 2px;
+//     padding-bottom: 2px;
+//     color: inherit;
+//     font-size: $type-size-5;
+//     text-decoration: none;
+
+//     &:hover {
+//       text-decoration: underline;
+//     }
+//   }
+// }
 .author__avatar {
   display: table-cell;
   vertical-align: top;
-  width: 36px;
-  // set width only, for non-square avatars
-  // height: 36px;
+  width: 200px;  // 增大头像区域
+  height: 200px; // 保持正方形
+  margin: 0 auto; // 居中
 
   @include breakpoint($large) {
     display: block;
-    width: auto;
-    height: auto;
+    width: 250px; // 桌面端更大尺寸
+    height: 250px;
   }
 
   img {
-    max-width: 175px;
+    max-width: 100%;
     border-radius: 50%;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2); // 添加立体阴影
+    transition: transform 0.3s ease; // 悬停动画
 
     @include breakpoint($large) {
-      padding: 5px;
-      border: 1px solid var(--global-border-color);
+      padding: 8px;
+      border: 2px solid #f0f0f0; // 更柔和的边框颜色
+    }
+
+    &:hover {
+      transform: scale(1.05); // 悬停放大效果
     }
   }
 }
 
 .author__content {
   display: table-cell;
-  vertical-align: top;
-  padding-left: 15px;
-  padding-right: 25px;
-  line-height: 1;
+  vertical-align: middle; // 垂直居中
+  padding-left: 30px; // 增大间距
+  line-height: 1.6; // 更适合中文的行高
 
   @include breakpoint($large) {
     display: block;
-    width: 100%;
-    padding-left: 0;
-    padding-right: 0;
+    text-align: center; // 桌面端居中
+    padding-top: 20px;
   }
 }
 
 .author__name {
   margin: 0;
-
-  @include breakpoint($large) {
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-}
-.sidebar .author__name {
-  font-family: $sans-serif;
-  font-size: $type-size-5;
-}
-
-.sidebar .author__desktop {
-  display: none;
-  @media screen and (min-width: 1024px) {
+  font-family: 'Microsoft YaHei', sans-serif; // 更优雅的中文字体
+  font-size: 2rem; // 增大字号
+  font-weight: 600;
+  color: #2c3e50; // 深蓝色
+  letter-spacing: 1px;
+  position: relative;
+  
+  &::after {  // 添加装饰下划线
+    content: '';
     display: block;
+    width: 60px;
+    height: 3px;
+    background: #3498db;
+    margin: 15px auto;
   }
-}
-
-.author__pronouns {
-  margin: 0;
 
   @include breakpoint($large) {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    font-size: 2.5rem;
+    margin-top: 20px;
   }
 }
 
-.author__bio {
-  margin: 0;
-
-  @include breakpoint($large) {
-    margin-top: 10px;
-    margin-bottom: 20px;
-  }
+// 新增职称样式
+.author__title {
+  font-size: 1.3rem;
+  color: #3d0b05;
+  margin: 10px 0;
+  font-weight: 500;
 }
 
+// 新增导师类型样式 
+.author__advisor-type {
+  font-size: 1.1rem;
+  color: #0b4580;
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
+// 联系方式样式优化
 .author__urls-wrapper {
-  position: relative;
-  display: table-cell;
-  vertical-align: middle;
-  font-family: $sans-serif;
-  z-index: 10;
-  position: relative;
-  cursor: pointer;
-
-  li:last-child {
-    a {
-      margin-bottom: 0;
+  a[href^="mailto:"] {
+    color: #d35400;
+    font-weight: 500;
+    font-size: 1.1rem;
+    &::before {
+      content: "📧 ";
     }
   }
-
-  @include breakpoint($large) {
-    display: block;
-  }
-
-  button {
-    margin-bottom: 0;
-
-    @include breakpoint($large) {
-      display: none;
+  
+  .googlescholar-link {
+    color: #4285f4;
+    &::before {
+      content: "📚 ";
     }
   }
 }
 
-.author__urls {
-  display: none;
-  position: absolute;
-  right: 0;
-  margin-top: 15px;
-  padding: 10px;
-  list-style-type: none;
-  border: 1px solid var(--global-border-color);
-  border-radius: $border-radius;
-  background: var(--global-bg-color);
-  z-index: -1;
-  box-shadow: 0 0 10px rgba(#000, 0.25);
-  cursor: default;
-
-  @include breakpoint($large) {
+// 移动端优化
+@media screen and (max-width: 1023px) {
+  .author__avatar {
     display: block;
-    position: relative;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    background: transparent;
-    box-shadow: none;
+    margin: 0 auto 20px;
   }
-
-  &:before {
+  
+  .author__content {
     display: block;
-    content: "";
-    position: absolute;
-    top: -11px;
-    left: calc(50% - 10px);
-    width: 0;
-    border-style: solid;
-    border-width: 0 10px 10px;
-    border-color: var(--global-border-color) transparent;
-    z-index: 0;
-
-    @include breakpoint($large) {
-      display: none;
-    }
-  }
-
-  &:after {
-    display: block;
-    content: "";
-    position: absolute;
-    top: -10px;
-    left: calc(50% - 10px);
-    width: 0;
-    border-style: solid;
-    border-width: 0 10px 10px;
-    border-color: #fff transparent;
-    z-index: 1;
-
-    @include breakpoint($large) {
-      display: none;
-    }
-  }
-
-  li {
-    white-space: nowrap;
-  }
-
-  a {
-    display: block;
-    margin-bottom: 5px;
-    padding-right: 5px;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    color: inherit;
-    font-size: $type-size-5;
-    text-decoration: none;
-
-    &:hover {
-      text-decoration: underline;
-    }
+    text-align: center;
+    padding-left: 0;
   }
 }
